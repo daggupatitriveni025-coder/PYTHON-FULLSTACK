@@ -1,0 +1,18 @@
+div.section1 {
+  background-color: blue;
+  color: blueviolet;
+}
+div.section2 {
+  background-color: brown;
+  color: blanchedalmond;
+}
+.section1 h1 {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+.section2 h1 {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+}

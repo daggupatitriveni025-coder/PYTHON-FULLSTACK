@@ -1,0 +1,13 @@
+* {
+  color: blue;
+}
+h1 p {
+  color: red;
+  text-decoration: underline;
+}
+h1#s {
+  color: green;
+}
+h1#e {
+  color: greenyellow;
+}
