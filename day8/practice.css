@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+header {
+  background-color: #FF0052;
+  height: 200px;
+}
+nav {
+    background-color:#FFD400;
+    height: 300px;
+
+}
+main {
+    background-color: #00C68D;
+    height: 300px;
+    display: flex;
+}
+main > .child1 {
+    height: 60%;
+    width: 100%;
+
+}
+main > .child2 {
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+}
+.child1 > section {
+    background-color: aquamarine;
+    height: 80%;
+}
+footer {
+    background-color: grey;
+    height: 90px;
+}
+header,nav,section,article,aside,footer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
