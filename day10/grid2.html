@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .parent {
+            background-color: antiquewhite;
+            height: 300px;
+            width: 400px;
+            border: 10px solid, black;
+            display: grid;
+            gap: 10px;
+            padding: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+        }
+        .parent > div {
+            background-color: blueviolet;
+            font-size: 100px;
+            text-align: center;
+
+        }
+        .parent >.child2,.child4,.child5 {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div>
+    </div>
+    
+</body>
+</html>
