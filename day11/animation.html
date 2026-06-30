@@ -1,0 +1,102 @@
+<!doctype html5>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      img {
+        width: 200px;
+        height: auto;
+      }
+      #girl {
+        animation-name: start;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-timing-function: linear;
+        animation-iteration-count: 2;
+        animation-direction: normal;
+      }
+      @keyframes start {
+        0% {
+          transform: translateX(0px) scale(1);
+        }
+        50% {
+          transform: translateX(1100px) scale(2);
+        }
+        100% {
+          transform: translateX(0px) scale(0.5);
+        }
+      }
+      #mouse {
+        animation-name: mouse;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        animation-direction: alternate-reverse;
+      }
+      @keyframes mouse {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(1100px);
+        }
+      }
+      #duck {
+        animation-name: duck;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+      }
+      @keyframes duck {
+        from {
+          transform: translateX(0px) scale(1);
+        }
+        to {
+          transform: translateX(1100px) scale(2);
+        }
+      }
+      #penguin {
+        animation-name: pen;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pen {
+        from {
+          transform: translateX(0px) rotate(0deg);
+        }
+        to {
+          transform: translateX(1100px) rotate(360deg);
+        }
+      }
+      #wallpaper {
+        animation-name: demo;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+      }
+      #wallpaper:hover {
+        animation-play-state: paused;
+      }
+      @keyframes demo {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(1100px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img id="girl" src="girl.png" alt="Error is image" /> <br /><br />
+    <img id="mouse" src="mouse.png" alt="error" /><br /><br />
+    <img id="duck" src="duck.png" alt="error" /><br /><br />
+    <img id="penguin" src="penguin.png" alt="error" /><br /><br />
+    <img id="wallpaper" src="wallpaper.png" alt="error" />
+  </body>
+</html>

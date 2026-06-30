@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        img {
+            width: 300px;
+            animation: load 5s linear 0s infinite normal forwards;
+        }
+        @keyframes load{
+            from {
+                opacity: 0;
+                transform: translateX(-500px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(500px);
+            }
+
+        }
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            color: blueviolet;
+            font-size: 100px;
+            animation: entry 5s linear 0s infinite normal;
+        }
+        @keyframes entry {
+            from{
+                opacity: 0;
+                transform: translateY(500px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            
+        }
+            
+        
+    </style>
+
+</head>
+<body>
+    <img src="water.jpg" alt="error" />
+    <h1>water</h1>
+    
+</body>
+</html>
